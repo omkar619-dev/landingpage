@@ -1,0 +1,152 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+
+.header-logo{
+    max-width: 800px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{   
+    font-size: 24px #f9faf8;
+    display: flex;
+    background-color:#1F2937;
+    color: white;
+    justify-content: space-between;   
+}
+
+ul{
+ list-style: none;
+}
+.text{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.header ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px;
+    list-style: none;
+    display: flex; 
+    margin-right: 20px;   
+}
+.hero{
+    display: flex;
+}
+.heromain-left {
+    padding-left: 2em ;
+    width: 50%;
+    background-color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    
+}
+.heromain-left h1{
+    color: #f9faf8;
+}
+.heromain-left p{
+    color: #f9faf8;
+}
+.heromain-left button{ 
+    width: 7em;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.heromain-right{
+
+    padding-right: 5em;
+    padding-bottom: 3em;
+    width: 50%;
+    background-color:#1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+.heromain-right img{
+    border-radius: 5px;
+}
+.info{
+    min-height: 40vh;
+}
+.info h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-wrap {
+    display:flex;
+    justify-content: space-evenly;
+}
+.img-wrap img{
+    border-radius: 5px;
+    border: 5px solid #3882f6;
+}
+
+.info-text{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote{
+    min-height: 30vh;
+    background-color: #e5e7eb;
+    display: flex;
+}
+.quote h1{
+    width: 90%;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.quote-thor{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: bolder;
+    
+}
+
+.sign-box{
+    border-radius: 5px;
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    background-color: #3882f6;
+}
+
+.call{
+    margin-left: 20px;
+    color: #e5e7eb;
+    width: 70%;
+}
+.sign-up{
+    
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+
+}
+.sign-up button{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    width: 70%;
+}
+
+.footer{
+    color: #e5e7eb;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
